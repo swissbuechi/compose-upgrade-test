@@ -31,7 +31,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
       - name: simple-compose-service-updates
-        uses: sbe-arg/simple-compose-service-updates@v0.1.1
+        uses: swissbuechi/simple-compose-service-updates@add-ghcr.io-support
         with:
           default_branch: 'main'
         env:
