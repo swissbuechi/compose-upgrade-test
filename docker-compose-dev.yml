@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   vault:
-    image: docker.io/hashicorp/vault:1.14
+    image: docker.io/hashicorp/vault:1.15.1
     container_name: vault
     environment:
       VAULT_ADDR: https://localhost:8200
