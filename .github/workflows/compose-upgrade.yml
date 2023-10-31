@@ -28,7 +28,7 @@ jobs:
           git config --global user.email "github-actions@github.com"
 
       - name: simple-compose-service-updates
-        uses: sbe-arg/simple-compose-service-updates@v0.1.0
+        uses: sbe-arg/simple-compose-service-updates@v0.1.1
         with:
           default_branch: 'main'
         env:
